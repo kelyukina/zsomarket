@@ -1,0 +1,109 @@
+/* HEADER SIMPLE */
+body.simple_basket_mode .header_wrap {
+  display: block !important;
+}
+body.simple_basket_mode #mobileheader {
+  display: none !important;
+}
+body.simple_basket_mode #header {
+  background: #fff;
+  background: var(--card_bg_black);
+}
+body.simple_basket_mode #header .inline-search-show {
+  border: none;
+  background: none;
+  padding: 0;
+}
+body.simple_basket_mode #header .inline-phone-show {
+  border: none;
+  background: none;
+  padding: 0;
+}
+body.simple_basket_mode #header .inline-phone-show .svg {
+  top: 0px;
+}
+body.simple_basket_mode #header .wrap_phones .dropdown-mobile-phone {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 2px);
+  z-index: 3000;
+  background: #fff;
+  background: var(--card_bg_black);
+  display: none;
+}
+.ios body.simple_basket_mode #header .inline-search-show {
+  top: 4px;
+}
+body.simple_basket_mode #header .inline-search-show .svg-inline-search {
+  top: -4px;
+}
+body.simple_basket_mode #header .top-btn:not(:hover) .svg {
+  opacity: 0.5;
+}
+body.simple_basket_mode #header .logo-block.floated {
+  padding-right: 50px;
+}
+body.simple_basket_mode .back-mobile-arrow {
+  margin: 18px 16px 0px 0px;
+}
+body.simple_basket_mode .back-mobile-arrow .arrow-back {
+  position: relative;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+body.simple_basket_mode .back-mobile-arrow .arrow-back .svg-inline-arrow-back {
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -8px 0 0 -9px;
+}
+
+@media (max-width: 767px) {
+  body.simple_basket_mode .header_wrap {
+    position: static;
+  }
+  body.simple_basket_mode #header:not(.fixed) {
+    position: static;
+  }
+  body.simple_basket_mode .logo{
+    height: 62px;
+    line-height: 62px;
+  }
+  body.simple_basket_mode .logo_and_menu-row .wrap_icon{
+    height: 62px;
+  }
+  body.simple_basket_mode #header .logo_and_menu-row {
+    position: static;
+  }
+  body.simple_basket_mode #header .logo-block.floated {
+    padding-right: 0px;
+  }
+
+  body.simple_basket_mode #header.fixed {
+    z-index: 1049;
+  }
+  body.simple_basket_mode #header .logo {
+    max-width: 112px;
+  }
+}
+
+@media (min-width: 900px) {
+  body.simple_basket_mode .logo-centered .logo-block {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+body.simple_basket_mode .logo-centered .back-mobile-arrow {
+  margin: 12px 0 0;
+}
+
+/* FOOTER SIMPLE */
+body.simple_basket_mode #footer .footer-inner {
+  padding-bottom: 54px;
+}

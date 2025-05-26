@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'rubleBitrix';
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubOpenSans-Regular.eot?v=2.6');
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubOpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('BitrixlRubOpenSans-Regular.ttf') format('truetype'),
+		 url('BitrixlRubOpenSans-Regular.woff2') format('woff2'),
+		 url('BitrixlRubOpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubleBitrixOpSans';
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubOpenSans-Regular.eot?v=2.6');
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubOpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('BitrixlRubOpenSans-Regular.ttf') format('truetype'),
+		 url('BitrixlRubOpenSans-Regular.woff2') format('woff2'),
+		 url('BitrixlRubOpenSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubleBitrixHelvetic';
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubHelvetica-Regular.eot?v=2.8');
+	src: url('/bitrix/js/ui/fonts/ruble/BitrixlRubHelvetica-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('BitrixlRubHelvetica-Regular.ttf') format('truetype'),
+		 url('BitrixlRubHelvetica-Regular.woff2') format('woff2'),
+		 url('BitrixlRubHelvetica-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

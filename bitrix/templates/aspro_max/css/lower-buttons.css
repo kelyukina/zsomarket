@@ -1,0 +1,16 @@
+.btn:not(.font-ignore) {text-transform: none;font-size: 13px;line-height: 1.154;padding-top: 9px;padding-bottom: 9px;letter-spacing: normal;}
+.btn.btn-xs:not(.font-ignore) {padding-top: 8px;padding-bottom: 9px;font-size: 11px;}
+.btn.btn-sm:not(.font-ignore) {padding-top: 8px;padding-bottom: 8px;font-size: 12px;}
+.btn.btn-lg:not(.font-ignore) {padding-top: 13px;padding-bottom: 14px;font-size: 15px;}
+.btn.btn-exlg:not(.font-ignore) {padding-top: 19px;padding-bottom: 19px;font-size: 14px;}
+
+.more_text_ajax:not(.font-ignore) {
+	text-transform: none;
+	font-size: 15px;
+	letter-spacing: normal;
+}
+
+.product-info-headnote__toolbar .like_icons.list.sm .btn-xs {padding-top: 7px;}
+.product-info-headnote__toolbar .like_icons.list.sm .btn-xs .svg {margin-top: 1px;}
+
+footer .info .subscribe_button .btn {letter-spacing: 0;}

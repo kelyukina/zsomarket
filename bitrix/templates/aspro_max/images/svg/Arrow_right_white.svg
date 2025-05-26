@@ -1,0 +1,11 @@
+<svg id="Arrow_right_white.svg" xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_3_copy" data-name="Rounded Rectangle 3 copy" class="cls-1" d="M253.052,4840.24a0.747,0.747,0,0,0,.026.13c0,0.01.014,0.02,0.019,0.03a0.967,0.967,0,0,0,.2.3l4.992,5a1,1,0,0,0,1.414-1.42l-3.287-3.29H269a1.005,1.005,0,0,0,0-2.01H256.416l3.287-3.29a1.006,1.006,0,0,0,0-1.42,0.983,0.983,0,0,0-1.414,0l-4.992,4.99a1.01,1.01,0,0,0-.2.31c0,0.01-.014.01-0.019,0.02a1.147,1.147,0,0,0-.026.14A0.651,0.651,0,0,0,253.052,4840.24Z" transform="translate(-253 -4834)"/>
+</svg>

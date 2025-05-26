@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .prediction-icon-1 {
+        fill: #ffd83a !important;
+      }
+
+      .prediction-icon-2 {
+        fill: #333 !important;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="prediction-icon-1" d="M0,0H22a0,0,0,0,1,0,0V22a0,0,0,0,1,0,0H3a3,3,0,0,1-3-3V0A0,0,0,0,1,0,0Z"/>
+  <path class="prediction-icon-2" d="M1626.5,671a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,1626.5,671Zm0-3.2a0.7,0.7,0,1,0,.7.7A0.7,0.7,0,0,0,1626.5,667.8Zm-5.81.895a1,1,0,0,1-1.41-1.408l6-6.008a1,1,0,1,1,1.41,1.408ZM1619.5,664a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,1619.5,664Zm0-3.2a0.7,0.7,0,1,0,.7.7A0.7,0.7,0,0,0,1619.5,660.8Z" transform="translate(-1612 -654)"/>
+</svg>

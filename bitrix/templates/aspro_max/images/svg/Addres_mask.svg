@@ -1,0 +1,11 @@
+<svg id="Addres_mask.svg" xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_74_copy" data-name="Ellipse 74 copy" class="cls-1" d="M752,49V39.375a6.25,6.25,0,0,0,1.1,3.54h-0.03L758,49h1l4.933-6.084H763.9a6.257,6.257,0,0,0,1.1-3.54A6.438,6.438,0,0,0,758.5,33H765V49H752Zm6.5-14a4.5,4.5,0,0,1,3.74,7h0.049l-3.578,4.448h-0.422L754.747,42h0.012A4.5,4.5,0,0,1,758.5,35Zm0,6a1.5,1.5,0,1,0-1.5-1.5A1.5,1.5,0,0,0,758.5,41ZM752,39.374V33h6.5A6.437,6.437,0,0,0,752,39.374Z" transform="translate(-752 -33)"/>
+</svg>

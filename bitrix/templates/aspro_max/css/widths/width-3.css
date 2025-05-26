@@ -1,0 +1,169 @@
+body .wrapper_inner,
+body .maxwidth-theme,
+.wrapper_inner.wide_page .product-view--type2 .product-info {
+  max-width: 1408px;
+}
+body .maxwidth-theme-popup {
+  max-width: 1348px !important;
+}
+.fill_bg_y .front.wide_page .adv_bottom_block,
+.fill_bg_y .front.wide_page hr {
+  max-width: 1408px;
+}
+.fill_bg_y .line-row {
+  max-width: 1408px;
+}
+.fill_bg_y .banners-content .maxwidth-banner {
+  max-width: 1408px;
+}
+.fill_bg_y .contacts_map,
+.fill_bg_y .contacts-page-map {
+  max-width: 1408px;
+}
+.fill_bg_y .banner.TOP_UNDERHEADER,
+.fill_bg_y .banner.FOOTER,
+.fill_bg_y .banner.CONTENT_TOP,
+.fill_bg_y .banner.CONTENT_BOTTOM,
+.top_big_banners.half_block .swiper-pagination {
+  max-width: 1408px;
+}
+
+.wrapper_inner.wide_page .banners_slider_wrap.CONTENT_TOP,
+.wrapper_inner.wide_page .banners_slider_wrap.CONTENT_BOTTOM,
+.front_page:not(.with_left_block) .banners_slider_wrap.CONTENT_TOP,
+.front_page:not(.with_left_block) .banners_slider_wrap.CONTENT_BOTTOM {
+  max-width: 1408px;
+}
+
+body.fill_bg_y .top_big_one_banner {
+  max-width: 1408px;
+  margin: 0 auto;
+}
+
+.type_clothes .item_slider:not(.flex) .slides {
+  max-width: 500px;
+  height: 500px;
+  line-height: 497px;
+}
+.type_clothes .item_slider:not(.flex) .slides ul:not(.flex-direction-nav) li {
+  height: 500px;
+  line-height: 500px;
+}
+
+.menu-navigation {
+  max-width: 1390px;
+  margin: auto;
+}
+
+@media (min-width: 1401px) {
+  .fill_bg_y .contacts-page-map + .contacts.contacts-page-map-overlay {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: static;
+  }
+  .fill_bg_y .contacts-page-map + .contacts.contacts-page-map-overlay .contacts-wrapper {
+    margin-left: 53px;
+    margin-right: 53px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .contacts-page-map + .contacts.contacts-page-map-overlay {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 53px;
+    margin-right: 53px;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .wrapper1.with_left_block .item-views.company.type2.sm .text-block .item {
+    padding-left: 25px;
+  }
+  .wrapper1.with_left_block .item-views.company.type2.md .text-block .item {
+    padding-left: 25px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .contacts-page-map + .contacts.contacts-page-map-overlay {
+    max-width: 1330px;
+  }
+}
+@media (min-width: 992px) {
+  .side_RIGHT.block_side_WIDE.catalog_page .left_block .sticky-sidebar__inner > div {
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .ajax_load.block .view_sale_block .title,
+  .ajax_load.block .view_sale_block .values .item .text {
+    font-size: 10px;
+  }
+  .ajax_load.block .view_sale_block .values .item {
+    font-size: 13px;
+  }
+
+  .ajax_load.block .cost.prices .price:not(.discount) {
+    font-size: 16px;
+  }
+  .ajax_load.block .catalog_block .sale_block {
+    font-size: 11px;
+  }
+  .ajax_load.block .catalog_block .sale_block .text {
+    font-size: 11px;
+    padding: 1px 6px 2px;
+    margin-right: 1px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .ajax_load.block .view_sale_block {
+    width: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .owl-carousel:not(.product-detail-gallery__slider) .owl-nav {
+    left: -25px;
+    right: -25px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .top-block .top-description .confirm_region {
+    left: 10px;
+  }
+  .top-description .confirm_region:before,
+  .top-description .confirm_region:after {
+    left: 50px;
+  }
+}
+
+@media (min-width: 1344px) {
+  .half_block .main-slider .left .banner_title,
+  .half_block .main-slider .left .banner_text,
+  .half_block .main-slider .left .banner_buttons {
+    margin-left: 32px !important;
+  }
+  .top_big_banners.half_block .swiper-pagination {
+    padding-left: 27px;
+  }
+  .half_block .main-slider .left .banner_text {
+    padding-right: 85px;
+  }
+}
+
+.wrapper1:not(.with_left_block) .detail_content_wrapper.side_image_N .content-text {
+  max-width: 1100px;
+  font-family: "Montserrat";
+    font-weight: 600;
+    color: black !important;
+}
+body .project_block:not(.wti) .info,
+body .wrapper_inner_half .item .left_block_store {
+  max-width: 656px;
+}

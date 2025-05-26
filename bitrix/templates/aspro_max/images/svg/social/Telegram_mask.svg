@@ -1,0 +1,11 @@
+<svg id="Telegram_mask.svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_112_copy" data-name="Rounded Rectangle 112 copy" class="cls-1" d="M328,1189h20v20H328v-20Zm14.659,16.07-0.483.93h-0.941l-3.379-2.78-0.983,1.76h-0.941l-0.941-.93v-2.89L330,1199.5v-0.93l0.88-.47,13.179-5.1a0.923,0.923,0,0,1,.708.14,1.333,1.333,0,0,1,.233.79Zm-0.266-8.01-4.409,3.68,3.045,2.53Zm-5.88,2.46,3.706-3.09-6.543,2.43Z" transform="translate(-328 -1189)"/>
+</svg>

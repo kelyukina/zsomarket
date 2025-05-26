@@ -1,0 +1,11 @@
+<svg id="Filter_white.svg" xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M663,361v5l-3-1v-4l-7-7v-2h17v2Zm-7.219-7,5.055,5h1.32l5-5H655.781Z" transform="translate(-653 -352)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Googleplus_mask.svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M587,31h20V51H587V31Zm19,12h-2v2h-2V43h-2V41h2V39h2v2h2v2Zm-12.5,4a5.5,5.5,0,1,1,4.43-8.733l-1.7,1.066A3.495,3.495,0,1,0,596.65,43H594V41h5v2h-0.233A5.484,5.484,0,0,1,593.5,47Z" transform="translate(-587 -31)"/>
+</svg>

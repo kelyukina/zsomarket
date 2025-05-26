@@ -1,0 +1,48 @@
+{
+"name": "ЗСОмаркет",
+"short_name": "ЗСОмаркет",
+"start_url": "\/",
+"display": "browser",
+"background_color": "#fff",
+"theme_color": "#e31e23",
+"orientation": "natural",
+"lang": "ru",
+"icons": [
+{
+"src": "\/upload\/CMax\/16a\/oz3i8gt2wwle9q3l0w3xq5fvepe8x2k6.png",
+"sizes": "36x36",
+"type": "image\/png",
+"density": "0.75"
+},
+{
+"src": "\/upload\/CMax\/a87\/wskacyfz3ytoyk0i4kcrytjiwkpd3044.png",
+"sizes": "48x48",
+"type": "image\/png",
+"density": "1.00"
+},
+{
+"src": "\/upload\/CMax\/a2d\/8rrg0u5df4lpdz36k9j6jdif6n0etjpr.png",
+"sizes": "72x72",
+"type": "image\/png",
+"density": "1.50"
+},
+{
+"src": "\/upload\/CMax\/8b5\/utog964o4qjc6d1qf123ea9cw4h30vlb.png",
+"sizes": "96x96",
+"type": "image\/png",
+"density": "2.00"
+},
+{
+"src": "\/upload\/CMax\/3e0\/p9g78jiunij36cblor94omcs5h033bli.png",
+"sizes": "144x144",
+"type": "image\/png",
+"density": "3.00"
+},
+{
+"src": "\/upload\/CMax\/a48\/us7rbu1skp5lm9ikfxyc6doj2m3zt9fj.png",
+"sizes": "192x192",
+"type": "image\/png",
+"density": "4.00"
+}
+]
+}

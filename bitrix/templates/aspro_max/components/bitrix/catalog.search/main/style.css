@@ -1,0 +1,10 @@
+.search_page .bigdata_recommended_products_items .block-items {
+  margin: 19px 0px 0px;
+}
+
+.search_page .bigdata_recommended_products_items .subtitle {
+  font-size: 1.333em;
+  color: #333;
+  color: var(--white_text_black);
+  margin: 32px 0px 0px;
+}

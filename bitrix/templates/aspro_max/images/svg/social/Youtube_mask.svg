@@ -1,0 +1,11 @@
+<svg id="Youtube_mask.svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M451,31h20V51H451V31Zm14,16h-7a4,4,0,0,1-4-4V39a4,4,0,0,1,4-4h7a4,4,0,0,1,4,4v4A4,4,0,0,1,465,47Zm2-8a2,2,0,0,0-2-2h-7a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2h7a2,2,0,0,0,2-2V39Zm-7,0,4,2-4,2V39Z" transform="translate(-451 -31)"/>
+</svg>

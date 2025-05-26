@@ -1,0 +1,60 @@
+.item-views.float_banners:not(.type2){padding-bottom: 17px;}
+.item-views.float_banners.type2{padding-bottom: 38px;}
+
+.wrapper1:not(.with_left_block) .wrapper_inner.front .drag-block.container .item-views.float_banners:not(.type2){padding-bottom: 27px;}
+.wrapper1:not(.with_left_block) .wrapper_inner.front .drag-block.container .item-views.float_banners.type2{padding-bottom: 48px;}
+
+.item-views.float_banners .item{padding: 10px 0px 22px;}
+.item-views.float_banners .item .image__fon{display:block;background-size: cover;padding-top: 65.4%;}
+.item-views.float_banners .item .inner-text{padding: 25px 10px 0px;}
+.item-views.float_banners .item .previewtext{margin-top: 6px;}
+
+.item-views.float_banners.type2 .item .inner-text{position: absolute;z-index: 11;bottom: 23px;left: 20px;right: 20px;}
+.item-views.float_banners.type2 .item .inner-text{bottom: 49px;}
+.item-views.float_banners.type2 .item .inner-text .title-inner{margin-bottom: 0px;transition: all ease 0.2s;max-height: 72px;overflow: hidden;}
+.item-views.float_banners.type2 .item .inner-text .title-inner{transform: translateY(-2px);}
+/*.item-views.float_banners.type2 .item .inner-text:not(.animated .title-inner{transform: translateY(-2px);}*/
+.item-views.float_banners.type2 .item:hover .inner-text.animated .title-inner{transform: translateY(-10px);}
+.item-views.float_banners.type2 .item .inner-text .top-text{padding-bottom: 10px;}
+.item-views.float_banners.type2 .item .inner-text .title{margin-bottom: 0px;}
+.item-views.float_banners.type2 .item .inner-text *{color: #fff;}
+.item-views.float_banners.type2 .item .inner-text .previewtext, .item-views.float_banners.type2 .item .inner-text .top-text{opacity: 0.7;}
+.item-views.float_banners.type2 .item .inner-text .previewtext{margin:0px;visibility: hidden;height: 0;max-height: 80px;overflow: hidden;transform: translateY(2px);transition: all ease 0.2s;}
+.item-views.float_banners.type2 .item:hover .inner-text .previewtext{visibility: visible;height: auto;transform: translateY(-6px);}
+
+
+@media (min-width: 992px){
+	.item-views.float_banners .row .col-md-4 .image__fon{padding-top: 100.4%;}
+	.item-views.float_banners .row .col-md-3 .image__fon{padding-top: 137.7%;}
+	
+	.item-views.float_banners.type2.sm-block .row .col-md-6 .image__fon{padding-top: 47.5%;}
+	.item-views.float_banners.type2.sm-block .row .col-md-3 .image__fon{padding-top: 99.86%;}
+	.item-views.float_banners.type2.sm-block .row .col-md-12 .image__fon{padding-top: 23.19%;}
+	.item-views.float_banners.type2.sm-block .row .image,
+	.item-views.float_banners.type2.sm-block .row .image *{height:100%}
+}
+
+@media(max-width:991px) {
+	.item-views.float_banners .item .image__fon {padding-top: 100%;}
+}
+
+@media (max-width: 600px){
+	body .item-views.float_banners .item{padding-bottom: 10px;}
+	body .wrapper1:not(.with_left_block) .wrapper_inner.front .drag-block.container .item-views.float_banners:not(.type2){padding-bottom: 0px;}
+
+	/*new mobile*/
+	body .item-views.float_banners .swipeignore.mobile-overflow .item .lazy, body .item-views.float_banners .swipeignore.mobile-overflow .item .lazyloaded{padding-top: 100%;}
+	body .item-views.float_banners .swipeignore.mobile-overflow .col-md-3 .item .lazy, body .item-views.float_banners .swipeignore.mobile-overflow .col-md-3 .item .lazyloaded{padding-top: 137%;}
+	body .item-views.float_banners .swipeignore.mobile-overflow .col-md-6 .item .lazy, body .item-views.float_banners .swipeignore.mobile-overflow .col-md-6 .item .lazyloaded{padding-top: 66.7%;}
+	.item-views.float_banners .swipeignore.mobile-overflow{margin-bottom: 10px;}
+	.item-views.float_banners .swipeignore.mobile-overflow .item .inner-text{padding-top: 15px;}
+	.item-views.float_banners .swipeignore.mobile-overflow .item .inner-text .title{margin-bottom: 2px;}
+	.item-views.float_banners .swipeignore.mobile-overflow .item .inner-text .previewtext {margin-top: 2px;}
+
+	#main .wrapper1 .wrapper_inner.front .drag-block.container .item-views.float_banners.type2{padding-bottom: 0px;}
+	.item-views.float_banners.type2 .swipeignore.mobile-overflow .item .image span{padding-top: 100%;}
+	.item-views.float_banners.type2 .swipeignore.mobile-overflow .item .inner-text{bottom: 22px;left: 14px;}
+	.item-views.float_banners.type2 .swipeignore.mobile-overflow .item .inner-text .top-text{padding-bottom: 6px;}
+	.item-views.float_banners.type2 .swipeignore.mobile-overflow > div{padding-bottom: 25px;}
+	/**/
+}

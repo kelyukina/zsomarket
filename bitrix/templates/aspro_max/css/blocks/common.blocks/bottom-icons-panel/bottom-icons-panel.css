@@ -1,0 +1,85 @@
+.bottom-icons-panel {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    background: #fff;
+    background: var(--card_bg_black);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 997;
+  }
+  .bottom-icons-panel__content {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: auto;
+  }
+  .bottom-icons-panel__content-link {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 75px;
+    max-width: 200px;
+    height: 62px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 3px 1px;
+    text-decoration: none;
+  }
+  .bottom-icons-panel__content-text {
+    align-self: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bottom-icons-panel__content-link--display--block {
+    display: block;
+  }
+  .bottom-icons-panel__content-picture-wrapper {
+    position: relative;
+  }
+  .bottom-icons-panel__content-picture-wrapper--mb-3 {
+    margin-bottom: 3px;
+  }
+  
+  .bottom-icons-panel__content::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .bottom-icons-panel__content::-webkit-scrollbar:vertical {
+    width: 6px;
+  }
+  
+  .bottom-icons-panel__content::-webkit-scrollbar:horizontal {
+    height: 6px;
+  }
+  
+  .bottom-icons-panel__content::-webkit-scrollbar-thumb {
+    background-color: rgba(153, 153, 153, 1);
+    background: var(--gray_bg_black);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    border-color: var(--black_bg_black);
+  }
+  
+  .bottom-icons-panel__content::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+    background: var(--card_bg_black);
+  }
+  
+  @media (min-width: 768px) {
+  }
+  @media (max-width: 767px) {
+    .bottom-icons-panel {
+      display: block !important;
+    }
+    .bottom-icons-panel-Y + footer {
+      padding-bottom: 68px;
+    }
+  }
+  

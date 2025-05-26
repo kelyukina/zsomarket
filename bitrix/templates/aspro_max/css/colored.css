@@ -1,0 +1,166 @@
+/*used var*/
+.color-theme {
+  color: #9e9e9e;
+  color: var(--theme-base-color);
+}
+
+.colored_theme_bg,
+.theme-bg-active.active,
+.colored_theme_bg_before:before,
+.colored_theme_hover_bg_before:hover:before,
+.colored_theme_bg_before:before,
+.colored_theme_hover_bg:hover,
+.colored_theme_hover_bg-block:hover .colored_theme_hover_bg-el,
+.video-block .image .play:after,
+.landings-list__item--active,
+.item-accordion-wrapper.opened .accordion-head:before {
+  background-color: #9e9e9e;
+  background-color: var(--theme-base-color);
+  border-color: #9e9e9e;
+  border-color: var(--theme-base-color);
+}
+
+.fill-dark-light,
+.fill-dark-light path,
+.fill-dark-light-block path,
+.fill-dark-light-block use {
+  fill: var(--fill_dark_light);
+}
+
+.fill-use-svg-999,
+.fill-use-999 svg use {
+  fill: #999;
+}
+
+.dark-color:not(.active),
+.colored:hover {
+  color: #333;
+  color: var(--white_text_black);
+  text-decoration: none;
+}
+.dark-color:hover,
+a.colored,
+.colored,
+body#main .colored_theme_text,
+body#main .colored_theme_text_with_hover:not(:hover),
+body#main .colored_theme_hover_text:hover,
+.top-block .menu > li > a:hover {
+  color: #9e9e9e;
+  color: var(--fill_dark_light_hover);
+}
+.top-btn .svg.inline:hover svg path,
+.top-btn .svg.inline:hover svg use,
+.top-btn:hover .svg.inline svg path,
+.top-btn:hover .svg.inline svg use,
+/* .svg.inline:not(.colored):hover svg path, */
+a:hover .svg.inline path,
+a:hover .svg.inline use,
+.sites:hover  .svg.inline use
+ {
+  fill: var(--fill_dark_light_hover);
+}
+
+.wrapper1:not(.light-menu-color)
+  .header_wrap:not(.light-menu-color)
+  .logo_and_menu-row
+  .wrap_icon
+  .top-btn:hover
+  .title {
+  color: #9e9e9e;
+  color: var(--fill_dark_light_white_hover);
+}
+
+a.dark_link:hover,
+.dark_link:hover span,
+.dl:hover a,
+.selected a.dark_link,
+a.muted:hover,
+.hover_color_theme:hover {
+  color: #9e9e9e;
+  color: var(--fill_dark_light_hover) !important;
+}
+.contents.parametrs .dynamic_left_side .items_inner .bottom_description a svg path,
+#main .colored_theme_svg svg path,
+.colored_theme_svg {
+  fill: var(--theme-base-color);
+}
+.muted:not(.ncolor):hover svg path {
+  fill: var(--fill_dark_light_white_hover);
+}
+
+.color-theme-hover:hover,
+.color-theme-hover:hover * {
+  color: var(--fill_dark_light_hover) !important;
+}
+
+.logo.colored svg .icon-path,
+.svg.colored:not(.svg-inline-icon) * {
+  fill: var(--fill_dark_light_hover);
+}
+.svg.colored.svg-inline-icon *,
+.svg-inline-authorization * {
+  fill: var(--theme-base-color);
+}
+
+.colored_theme_block_text:hover .colored_theme_el_text {
+  color: var(--fill_dark_light_hover) !important;
+}
+body#main .colored_theme_text_with_hover:not(:hover) .svg svg path,
+body#main .colored_theme_hover_text:hover svg path,
+.fancybox-is-open svg:hover path {
+  fill: var(--fill_dark_light_white_hover);
+}
+body#main .colored_theme_text_with_hover:not(:hover) .svg svg use,
+body#main .colored_theme_hover_text:hover svg use,
+.fancybox-is-open svg:hover use {
+  fill: var(--fill_dark_light_white_hover);
+}
+
+.colored_theme_hover_bg-block:hover .colored_theme_hover_bg-el-svg svg path {
+  fill: var(--fill_dark_light_white_hover);
+}
+
+body a,
+.link {
+  color: var(--fill_dark_light_white_hover);
+  text-decoration: underline;
+  text-decoration-color: var(--light, transparent) var(--dark, #fff);
+  text-underline-offset: 3px;
+}
+.stroke-dark-light,
+.stroke-dark-light *,
+.stroke-dark-light-block path,
+.stroke-dark-light-block use {
+  stroke: var(--fill_dark_light);
+}
+/*buttons*/
+.btn.btn-transparent-border {
+  background-color: transparent;
+  color: #9e9e9e;
+  color: var(--fill_dark_light_white_hover);
+  border: 1px solid;
+  border-color: hsla(
+    var(--dark_light-wtheme-hue),
+    var(--dark_light-wtheme-saturation),
+    var(--dark_light-wtheme-lightness),
+    0.35
+  );
+}
+.btn.btn-transparent-border-color {
+  border-color: hsla(
+    var(--dark_light-wtheme-hue),
+    var(--dark_light-wtheme-saturation),
+    var(--dark_light-wtheme-lightness),
+    0.35
+  );
+  color: var(--fill_dark_light_hover);
+}
+.btn.btn-transparent-border-color:hover,
+.btn.btn-transparent-border-color:focus {
+  background-color: var(--theme-base-color);
+  border-color: var(--theme-base-color);
+}
+.btn.btn-transparent {
+  color: #333;
+  color: var(--white_text_black);
+}

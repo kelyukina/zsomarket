@@ -1,0 +1,41 @@
+.drag-block.container.CATALOG_TAB {
+  overflow: visible;
+}
+.drag-block.container.CATALOG_TAB:hover {
+  z-index: 15;
+}
+
+.best_block.tab_slider_wrapp ul.tabs_content {
+  margin: 15px 0px 0px;
+}
+
+.best_block.tab_slider_wrapp ul.tabs_content li.tab {
+  margin: 0px;
+  padding: 0px;
+  position: static;
+  overflow: visible;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab.cur {
+  display: block;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab > ul {
+  margin: 0px;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab > .tabs_slider {
+  min-height: 300px;
+  background: transparent url(../../../../images/loaders/double_ring.svg) no-repeat center center;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab.opacity1 > .tabs_slider {
+  background: none;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab > .tabs_slider .top_wrapper {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.best_block.tab_slider_wrapp ul.tabs_content li.tab.opacity1 > .tabs_slider .top_wrapper {
+  opacity: 1;
+}
+
+.top_block + ul.tabs_content > li {
+  display: none;
+}

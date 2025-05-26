@@ -1,0 +1,11 @@
+<svg id="Email_mask.svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_114_copy_8" data-name="Rounded Rectangle 114 copy 8" class="cls-1" d="M322,984V964h20v20H322Zm18-13-8-5-8,5v8a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2v-8Zm-14,1.25,6,3.75,6-3.75V979H326v-6.75Zm6,1.469L327.613,971h0L332,968.281,336.387,971h0Z" transform="translate(-322 -964)"/>
+</svg>

@@ -1,0 +1,76 @@
+.mega-menu {
+  --transition-duration: 0.2s;
+  --transition-delay: 0.2s;
+  --menu-item-hover-color: #fff;
+}
+.mega-menu:not(.visible) {
+  overflow: hidden;
+}
+
+/* Подсветка всей ячейки меню при наведении мышкой */
+.menu-item:hover,
+.menu-item:focus-within,
+.menu-item.dropdown:hover,
+.menu-item.dropdown:focus,
+.menu-item .dropdown .menu-item:hover,
+.menu-item .dropdown .menu-item:focus,
+.menu-item .dropdown:hover .wrap {
+  background-color: #999999 !important; /* светло-серый фон */
+}
+
+.dropdown-menu .menu-item:focus,
+.dropdown-menu .menu-item:hover {
+  background-color: yellow !important;
+}
+
+.mega-menu .dropdown-menu {
+  display: block;
+  opacity: 0;
+  transition: opacity var(--transition-duration) ease-in-out var(--transition-delay),
+              visibility var(--transition-duration) ease-in-out var(--transition-delay);
+  visibility: hidden;
+}
+
+.dark-hover-overlay .mega-menu .menu-item.dropdown .wrap::before {
+  background-color: transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translate3d(0, 0, 0);
+  transition: all var(--transition-duration) ease-in;
+  z-index: 4;
+}
+.mega-menu .menu-item.wide_menu:hover .dropdown-menu,
+.mega-menu .menu-item:hover .wrap > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+.mega-menu .menu-item.dropdown .wrap,
+.mega-menu .menu-item.dropdown .wrap > a {
+  background-color: inherit;
+}
+.mega-menu .menu-item.dropdown .wrap > a,
+.mega-menu .menu-item.dropdown .wrap > a path {
+  transition: all var(--transition-duration, 0.25s) ease-in-out;
+}
+.dark-hover-overlay .mega-menu .menu-item.dropdown:hover .wrap > a {
+  color: var(--menu-item-hover-color) !important;
+}
+.dark-hover-overlay .mega-menu .menu-item.dropdown:hover .wrap > a path {
+  fill: var(--menu-item-hover-color) !important;
+}
+
+.mega-menu .menu-item.dropdown:hover .wrap,
+.mega-menu .menu-item.dropdown:hover .wrap > a {
+  z-index: 4;
+}
+
+.mega-menu .menu-item.dropdown:hover .wrap::before {
+  background-color: rgba(0, 0, 0, 0.6);
+}

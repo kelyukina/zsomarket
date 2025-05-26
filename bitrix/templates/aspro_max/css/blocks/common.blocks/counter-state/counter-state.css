@@ -1,0 +1,24 @@
+.counter-state {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.counter-state--in-icons {
+  top: -3px;
+  right: -9px;
+}
+/* .counter-state--empty:not(.basket-count), .counter-state:not(.basket-count) { */
+.counter-state.counter-state--empty {
+  display: none;
+}
+.counter-state__content {
+  padding: 0 4px;
+  min-width: 16px;
+  height: 15px;
+  line-height: 16px;
+  border-radius: 100%;
+}
+.counter-state__content-item-value {
+  color: #fff;
+  font-size: 0.667em;
+}

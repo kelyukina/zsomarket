@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .comcls-1 {
+        fill: #222;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="comcls-1" d="M16,3h0a1,1,0,0,1,1,1V17H15V4A1,1,0,0,1,16,3ZM11,6a1,1,0,0,1,1,1V17H10V7A1,1,0,0,1,11,6ZM6,0A1,1,0,0,1,7,1V17H5V1A1,1,0,0,1,6,0ZM1,8A1,1,0,0,1,2,9v8H0V9A1,1,0,0,1,1,8Z"/>
+</svg>
