@@ -7,7 +7,6 @@
   overflow: hidden;
 }
 
-/* Подсветка всей ячейки меню при наведении мышкой */
 .menu-item:hover,
 .menu-item:focus-within,
 .menu-item.dropdown:hover,
@@ -15,7 +14,7 @@
 .menu-item .dropdown .menu-item:hover,
 .menu-item .dropdown .menu-item:focus,
 .menu-item .dropdown:hover .wrap {
-  background-color: #999999 !important; /* светло-серый фон */
+  background-color: #999999 !important;
 }
 
 .dropdown-menu .menu-item:focus,

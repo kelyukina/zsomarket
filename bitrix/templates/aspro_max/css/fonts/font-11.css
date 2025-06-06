@@ -1,14 +1,14 @@
 /* 14px/22px Montserrat (Default) */
 html{font-size: 14px;}
 body,body div.bx-yandex-map, body .ymaps-map .ymaps-b-balloon,.fancybox-title{ font: 14px/22px "Montserrat", Arial, sans-serif; font-weight: 600; color: black;}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,.popup-window{font-family:"Montserrat", Arial, sans-serif;}s
-body .breadcrumb > li:after{margin-top:-3px;}
-body .item-views.type_2_within.within.services-items .item .toogle>span:before{top:3px;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,.popup-window{font-family:"Montserrat", Arial, sans-serif;font-weight: 600;}s
+body .breadcrumb > li:after{margin-top:-3px;font-weight: 600;}
+body .item-views.type_2_within.within.services-items .item .toogle>span:before{top:3px;font-weight: 600;}
 
-body #headerfixed .logo-row.v2 .mega-menu table td .wrap > a>span{padding-top:23px;padding-bottom:23px; color: black;}
+body #headerfixed .logo-row.v2 .mega-menu table td .wrap > a>span{padding-top:23px;padding-bottom:23px; color: black;font-weight: 600;}
 
 /*basket*/
 body .basket-coupon-block-field-description, body .basket-item-info-name, body .basket-item-info-name-link, body .basket-coupon-block-total-price-current,
-body #basket-root *, #content #bx-soa-order-form *, .sale_order_full_table .sale-paysystem-wrapper *{font-family: "Montserrat", Arial, sans-serif !important;}
+body #basket-root *, #content #bx-soa-order-form *, .sale_order_full_table .sale-paysystem-wrapper *{font-family: "Montserrat", Arial, sans-serif !important;font-weight: 600;}
 
-.viewed_product_block .viewed-wrapper .block-item__title {height: 46px;}
+.viewed_product_block .viewed-wrapper .block-item__title {height: 46px;font-weight: 600;}

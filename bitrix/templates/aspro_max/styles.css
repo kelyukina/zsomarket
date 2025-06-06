@@ -312,7 +312,6 @@ ul.list-unstyled li:before {
 }
 .bordered {
   border: 2px solid #ececec;
-  /* border-color: var(--stroke_black); */
   border-color: black;
 }
 .bordered-bottom {

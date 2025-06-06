@@ -10383,11 +10383,8 @@ body .bx-soa-auth .eye-password:after {
 
 *:focus {
   box-shadow: 3px #00aaff;
-  /* outline: 4px solid #00aaff !important; */
-  /* outline-offset: 4px !important; */
-  /* border-radius: 4px !important; */
-  border-radius: 8px; /* если нужно */
-  position: relative; /* обязательно */
+  border-radius: 8px;
+  position: relative;
   z-index: 9999;
 }
 
