@@ -695,6 +695,7 @@ table[data-bx-no-border="Y"] td {
 .btn-inline.darken {
   color: #333;
   color: var(--white_text_black);
+  color: white !important;
 }
 
 /* i.fa.big-icon /info/more/icons/ */

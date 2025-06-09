@@ -980,6 +980,7 @@ body .item:hover .cost .icons-basket-wrapper .btn,
 }
 ._active .section-gallery-wrapper__item-nav:before {
   background-color: #e31e23;
+  height: 2px;
 }
 .basket-icons-wrapper .like_icons > div span.in {
   border-color: #e31e23;

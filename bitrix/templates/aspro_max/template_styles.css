@@ -15255,8 +15255,9 @@ body .list-type-block.item-views .item.wti .body-info .properties {
   border-color: var(--stroke_black);
 }
 .head-block.top:not(.with-tabs) .item-link.active {
-  background: #fafafa;
-  background: var(--light2_bg_black);
+  background: #e31e23;
+  /* background: var(--light2_bg_black); */
+  color: white;
 }
 
 /* FLEXSLIDER */

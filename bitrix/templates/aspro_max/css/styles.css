@@ -3923,7 +3923,7 @@ body .fast_view_frame .char_block .yeni_ipep_props_groups {
 .section-gallery-wrapper__item-nav:before {
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   background-color: #cdcdcd;
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
