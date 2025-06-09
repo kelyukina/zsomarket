@@ -1042,6 +1042,10 @@ footer .info .email a:hover {
 #mobilemenu .menu ul>li.selected a:before {
   background: #e31e23;
 }
+#mobilemenu .menu > ul > li.selected > a {
+  background: #e31e23;
+  color: white;
+}
 #mobilemenu .contacts a:hover {
   color: #e31e23;
 }
@@ -1292,7 +1296,7 @@ body .mega-menu table td .wrap > .dropdown-menu > li:first-of-type:before {
   fill: #e31e23;
 }
 .tabs .nav-tabs li.active:after {
-  background: #e31e23;
+  /* background: #e31e23; */
 }
 .catalog_detail .active .title-tab-heading,
 .catalog_detail .title-tab-heading:focus,

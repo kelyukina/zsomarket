@@ -2129,10 +2129,17 @@ img.shadow {
   background: var(--card_bg_hover_black);
 }
 
+.tabs .nav-tabs li.bordered li.active a:hover,
+.tabs .nav-tabs li.bordered li.active a:focus {
+  background: #999999 !important;
+}
+
 .tabs .nav-tabs li.active a {
   color: #333;
   color: var(--white_text_black);
   text-decoration: none;
+  background: #e31e23 !important;
+  color: white;
 }
 
 .tabs .nav-tabs li.active:hover {
@@ -2140,6 +2147,7 @@ img.shadow {
   transform: none;
   border-color: #ececec;
   border-color: var(--stroke_black);
+  background: #999999 !important;
 }
 
 .tabs .tab-content .content {
@@ -9743,6 +9751,7 @@ body .order-block td .btns {
   margin-bottom: 0 !important;
   overflow: hidden;
   padding-right: 88px;
+  color: black !important;
 }
 
 .accordion-type-1 .item-accordion-wrapper .accordion-head .arrow_open,
@@ -9825,6 +9834,7 @@ body .order-block td .btns {
   -ms-transition: background-color 0.3s ease;
   -o-transition: background-color 0.3s ease;
   -webkit-transition: background-color 0.3s ease;
+  border-color: black !important;
 }
 
 .accordion-head:hover .arrow_open:after {
@@ -10340,6 +10350,7 @@ body .bx-soa-auth .eye-password input[type="text"] {
   cursor: pointer;
   background-color: #f7f7f7;
   background-color: var(--darkerblack_bg_black);
+  z-index: 2;
 }
 
 .eye-password:focus-within:after {
@@ -10392,4 +10403,8 @@ body .bx-soa-auth .eye-password:after {
   outline: 4px solid #00aaff !important;
   outline-offset: 4px !important;
   border-radius: 4px !important;
+}
+
+.b24-widget-button-inner-mask {
+  background: none !important;
 }

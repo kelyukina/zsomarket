@@ -62,6 +62,9 @@ body .content_news2 .with-text-block-wrapper .list {
 
 .item-views.news2 .rounded3 .image {
   border-radius: 3px 3px 0px 0px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .item-views.news2 .item-wrapper .item.bordered .inner-text.with-section {
